@@ -1,0 +1,272 @@
+dataset/gridgen_8_20a.min
+Problem type: min
+Num of nodes: 1048577
+Num of arcs:  8388616
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 3.08s, s: 0.37s, cu: 0s, cs: 0s, real: 3.45592s
+Setup NetworkSimplex class: u: 0.28s, s: 0.13s, cu: 0s, cs: 0s, real: 0.410569s
+# block size: 2896
+# iterations: 2989568
+Run NetworkSimplex: u: 117.87s, s: 0.31s, cu: 0s, cs: 0s, real: 118.215s
+
+Feasible flow: found
+Min flow cost: 15057717825
+
+dataset/gridgen_deg_15a.min
+Problem type: min
+Num of nodes: 32762
+Num of arcs:  1073545216
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 321.79s, s: 34.75s, cu: 0s, cs: 0s, real: 356.635s
+Setup NetworkSimplex class: u: 628.34s, s: 18.01s, cu: 0s, cs: 0s, real: 646.474s
+# block size: 32764
+# iterations: 1316970
+Run NetworkSimplex: u: 144.98s, s: 1.12s, cu: 0s, cs: 0s, real: 146.143s
+
+Feasible flow: found
+Min flow cost: 1213580
+
+dataset/gridgen_sr_18a.min
+Problem type: min
+Num of nodes: 262145
+Num of arcs:  134218240
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 44.52s, s: 6.48s, cu: 0s, cs: 0s, real: 51.0216s
+Setup NetworkSimplex class: u: 17.7s, s: 1.82s, cu: 0s, cs: 0s, real: 19.5266s
+# block size: 11585
+# iterations: 2035430
+Run NetworkSimplex: u: 213.15s, s: 1.65s, cu: 0s, cs: 0s, real: 214.85s
+
+Feasible flow: found
+Min flow cost: 109933029
+
+dataset/grid_long_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2031632
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 0.63s, s: 0.04s, cu: 0s, cs: 0s, real: 0.677183s
+Setup NetworkSimplex class: u: 0.03s, s: 0.06s, cu: 0s, cs: 0s, real: 0.085659s
+# block size: 1425
+# iterations: 1094894
+Run NetworkSimplex: u: 459.37s, s: 0.15s, cu: 0s, cs: 0s, real: 459.573s
+
+Feasible flow: found
+Min flow cost: 5226915444
+
+dataset/grid_square_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2097152
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 0.61s, s: 0.07s, cu: 0s, cs: 0s, real: 0.686148s
+Setup NetworkSimplex class: u: 0.03s, s: 0.05s, cu: 0s, cs: 0s, real: 0.0880501s
+# block size: 1448
+# iterations: 7856413
+Run NetworkSimplex: u: 761.43s, s: 0.07s, cu: 0s, cs: 0s, real: 761.604s
+
+Feasible flow: found
+Min flow cost: 726961703929
+
+dataset/grid_wide_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2162672
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 0.66s, s: 0.1s, cu: 0s, cs: 0s, real: 0.766665s
+Setup NetworkSimplex class: u: 0.05s, s: 0.04s, cu: 0s, cs: 0s, real: 0.090579s
+# block size: 1470
+# iterations: 1949302
+Run NetworkSimplex: u: 8.42s, s: 0s, cu: 0s, cs: 0s, real: 8.42145s
+
+Feasible flow: found
+Min flow cost: 1677975681570
+
+dataset/netgen_8_20a.min
+Problem type: min
+Num of nodes: 1048576
+Num of arcs:  8388608
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 3s, s: 0.25s, cu: 0s, cs: 0s, real: 3.26352s
+Setup NetworkSimplex class: u: 0.27s, s: 0.14s, cu: 0s, cs: 0s, real: 0.399798s
+# block size: 2896
+# iterations: 3405609
+Run NetworkSimplex: u: 186.43s, s: 0.38s, cu: 0s, cs: 0s, real: 186.861s
+
+Feasible flow: found
+Min flow cost: 18337316134
+
+dataset/netgen_deg_15a.min
+Problem type: min
+Num of nodes: 32768
+Num of arcs:  1061879982
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 306.69s, s: 36.55s, cu: 0s, cs: 0s, real: 343.265s
+Setup NetworkSimplex class: u: 75.52s, s: 14.26s, cu: 0s, cs: 0s, real: 89.7794s
+# block size: 32586
+# iterations: 1302554
+Run NetworkSimplex: u: 139.8s, s: 2.54s, cu: 0s, cs: 0s, real: 142.346s
+
+Feasible flow: found
+Min flow cost: 1010364
+
+dataset/netgen_lo_8_20a.min
+Problem type: min
+Num of nodes: 1048576
+Num of arcs:  8388608
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 2.95s, s: 0.26s, cu: 0s, cs: 0s, real: 3.2159s
+Setup NetworkSimplex class: u: 0.26s, s: 0.15s, cu: 0s, cs: 0s, real: 0.416308s
+# block size: 2896
+# iterations: 2110142
+Run NetworkSimplex: u: 51.45s, s: 0.19s, cu: 0s, cs: 0s, real: 51.6305s
+
+Feasible flow: found
+Min flow cost: 128833608
+
+dataset/netgen_lo_sr_18a.min
+Problem type: min
+Num of nodes: 262144
+Num of arcs:  134217728
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 43.09s, s: 4.34s, cu: 0s, cs: 0s, real: 47.4423s
+Setup NetworkSimplex class: u: 22.69s, s: 6.72s, cu: 0s, cs: 0s, real: 29.4155s
+# block size: 11585
+# iterations: 1221545
+Run NetworkSimplex: u: 91.95s, s: 2.23s, cu: 0s, cs: 0s, real: 94.188s
+
+Feasible flow: found
+Min flow cost: 1160743
+
+dataset/netgen_sr_18a.min
+Problem type: min
+Num of nodes: 262144
+Num of arcs:  134217728
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 43.37s, s: 4.07s, cu: 0s, cs: 0s, real: 47.4432s
+Setup NetworkSimplex class: u: 19.9s, s: 1.78s, cu: 0s, cs: 0s, real: 21.6934s
+# block size: 11585
+# iterations: 3143477
+Run NetworkSimplex: u: 348.31s, s: 4.37s, cu: 0s, cs: 0s, real: 352.692s
+
+Feasible flow: found
+Min flow cost: 184048474
+
+dataset/road_flow_07_TX_a.min
+Problem type: min
+Num of nodes: 2073870
+Num of arcs:  5156088
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 1.59s, s: 0.16s, cu: 0s, cs: 0s, real: 1.76027s
+Setup NetworkSimplex class: u: 0.09s, s: 0.11s, cu: 0s, cs: 0s, real: 0.199363s
+# block size: 2270
+# iterations: 4927783
+Run NetworkSimplex: u: 146.4s, s: 0.52s, cu: 0s, cs: 0s, real: 146.93s
+
+Feasible flow: found
+Min flow cost: 22026187320
+
+dataset/road_paths_07_TX_a.min
+Problem type: min
+Num of nodes: 2073870
+Num of arcs:  5156088
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 1.59s, s: 0.15s, cu: 0s, cs: 0s, real: 1.7564s
+Setup NetworkSimplex class: u: 0.1s, s: 0.11s, cu: 0s, cs: 0s, real: 0.201662s
+# block size: 2270
+# iterations: 4495973
+Run NetworkSimplex: u: 124.96s, s: 0.45s, cu: 0s, cs: 0s, real: 125.406s
+
+Feasible flow: found
+Min flow cost: 43872587
+
+dataset/vision_inv_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 6.85s, s: 0.82s, cu: 0s, cs: 0s, real: 7.68012s
+Setup NetworkSimplex class: u: 0.45s, s: 0.39s, cu: 0s, cs: 0s, real: 0.831829s
+# block size: 4805
+# iterations: 12571400
+Run NetworkSimplex: u: 2800.3s, s: 4.56s, cu: 0s, cs: 0s, real: 2805.18s
+
+Feasible flow: found
+Min flow cost: 301698450
+
+dataset/vision_prop_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 8.16s, s: 0.84s, cu: 0s, cs: 0s, real: 9.00332s
+Setup NetworkSimplex class: u: 0.47s, s: 0.4s, cu: 0s, cs: 0s, real: 0.870698s
+# block size: 4805
+# iterations: 13676307
+Run NetworkSimplex: u: 2634.6s, s: 2.8s, cu: 0s, cs: 0s, real: 2638.34s
+
+Feasible flow: found
+Min flow cost: 8912004513
+
+dataset/vision_rnd_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Sum of supply values: 0
+GEQ supply contraints are used for NetworkSimplex
+
+Read the file: u: 6.88s, s: 0.87s, cu: 0s, cs: 0s, real: 7.7598s
+Setup NetworkSimplex class: u: 0.44s, s: 0.42s, cu: 0s, cs: 0s, real: 0.856856s
+# block size: 4805
+# iterations: 20546115
+Run NetworkSimplex: u: 5452.18s, s: 3.92s, cu: 0s, cs: 0s, real: 5457.11s
+
+Feasible flow: found
+Min flow cost: 1010380174
+

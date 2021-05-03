@@ -1,0 +1,10 @@
+pns-omp
+pns-omp-avx2
+pns-omp-avx512
+pns-seq
+pns-seq-avx2
+pns-seq-avx512
+
+*.o
+generators/gridgen-patched/gridgen
+generators/netgen-bcjl-patched/netgen

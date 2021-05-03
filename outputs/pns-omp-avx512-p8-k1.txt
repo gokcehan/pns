@@ -1,0 +1,576 @@
+dataset/gridgen_8_20a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 1048577
+c # arcs              : 8388616
+c # arcs in a block   : 2896
+c Init Time           : 6033 ms
+c # iterations        : 3119737
+c Time                : 153838 ms
+c - find entering arc : 46496 ms (0.302242)
+c - find join node    : 7607 ms (0.0494506)
+c - find leaving arc  : 8555 ms (0.0556142)
+c - change flows      : 76 ms (0.000495733)
+c - change states     : 169 ms (0.00109999)
+c - update tree       : 6710 ms (0.0436212)
+c - update pots       : 83689 ms (0.544007)
+s 15057717825
+
+dataset/gridgen_deg_15a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 32762
+c # arcs              : 1073545216
+c # arcs in a block   : 32768
+c Init Time           : 584277 ms
+c # iterations        : 1398254
+c Time                : 79104 ms
+c - find entering arc : 66384 ms (0.839204)
+c - find join node    : 1572 ms (0.0198776)
+c - find leaving arc  : 2674 ms (0.0338061)
+c - change flows      : 38 ms (0.000481325)
+c - change states     : 379 ms (0.00479976)
+c - update tree       : 1245 ms (0.0157435)
+c - update pots       : 6507 ms (0.0822612)
+s 1213580
+
+dataset/gridgen_sr_18a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 262145
+c # arcs              : 134218240
+c # arcs in a block   : 11600
+c Init Time           : 73645 ms
+c # iterations        : 2207355
+c Time                : 172716 ms
+c - find entering arc : 53877 ms (0.311945)
+c - find join node    : 7807 ms (0.0452047)
+c - find leaving arc  : 10819 ms (0.0626437)
+c - change flows      : 97 ms (0.000563685)
+c - change states     : 295 ms (0.00170972)
+c - update tree       : 6976 ms (0.0403907)
+c - update pots       : 92495 ms (0.535535)
+s 109933029
+
+dataset/grid_long_20a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 1048578
+c # arcs              : 2031632
+c # arcs in a block   : 1440
+c Init Time           : 1221 ms
+c # iterations        : 1094316
+c Time                : 1612581 ms
+c - find entering arc : 1233011 ms (0.76462)
+c - find join node    : 65122 ms (0.0403837)
+c - find leaving arc  : 79584 ms (0.0493525)
+c - change flows      : 5 ms (3.46784e-06)
+c - change states     : 114 ms (7.09454e-05)
+c - update tree       : 233469 ms (0.14478)
+c - update pots       : 975 ms (0.000605238)
+s 5226915444
+
+dataset/grid_square_20a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 1048578
+c # arcs              : 2097152
+c # arcs in a block   : 1456
+c Init Time           : 1282 ms
+c # iterations        : 6246627
+c Time                : 1660066 ms
+c - find entering arc : 240939 ms (0.145138)
+c - find join node    : 45766 ms (0.027569)
+c - find leaving arc  : 48917 ms (0.0294671)
+c - change flows      : 5093 ms (0.00306842)
+c - change states     : 301 ms (0.000181588)
+c - update tree       : 84624 ms (0.0509766)
+c - update pots       : 1232779 ms (0.742608)
+s 726961703929
+
+dataset/grid_wide_20a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 1048578
+c # arcs              : 2162672
+c # arcs in a block   : 1472
+c Init Time           : 1233 ms
+c # iterations        : 2079045
+c Time                : 37202 ms
+c - find entering arc : 32736 ms (0.879944)
+c - find join node    : 1086 ms (0.0292032)
+c - find leaving arc  : 1068 ms (0.0287309)
+c - change flows      : 82 ms (0.00222237)
+c - change states     : 64 ms (0.00173313)
+c - update tree       : 1040 ms (0.0279664)
+c - update pots       : 568 ms (0.0152934)
+s 1677975681570
+
+dataset/netgen_8_20a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 1048576
+c # arcs              : 8388608
+c # arcs in a block   : 2896
+c Init Time           : 4671 ms
+c # iterations        : 3406848
+c Time                : 214775 ms
+c - find entering arc : 50838 ms (0.236704)
+c - find join node    : 11115 ms (0.0517559)
+c - find leaving arc  : 11257 ms (0.0524144)
+c - change flows      : 122 ms (0.000568414)
+c - change states     : 139 ms (0.000648598)
+c - update tree       : 8825 ms (0.0410898)
+c - update pots       : 131952 ms (0.614373)
+s 18337316134
+
+dataset/netgen_deg_15a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 32768
+c # arcs              : 1061879982
+c # arcs in a block   : 32592
+c Init Time           : 588028 ms
+c # iterations        : 938804
+c Time                : 63116 ms
+c - find entering arc : 51762 ms (0.820102)
+c - find join node    : 1050 ms (0.0166461)
+c - find leaving arc  : 1709 ms (0.0270808)
+c - change flows      : 37 ms (0.00058889)
+c - change states     : 53 ms (0.000846164)
+c - update tree       : 775 ms (0.0122932)
+c - update pots       : 7487 ms (0.118622)
+s 1010364
+
+dataset/netgen_lo_8_20a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 1048576
+c # arcs              : 8388608
+c # arcs in a block   : 2896
+c Init Time           : 4632 ms
+c # iterations        : 2163938
+c Time                : 56190 ms
+c - find entering arc : 29592 ms (0.526639)
+c - find join node    : 4828 ms (0.0859222)
+c - find leaving arc  : 4644 ms (0.082649)
+c - change flows      : 2 ms (3.84918e-05)
+c - change states     : 87 ms (0.00155765)
+c - update tree       : 3701 ms (0.0658754)
+c - update pots       : 13004 ms (0.23143)
+s 128833608
+
+dataset/netgen_lo_sr_18a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 262144
+c # arcs              : 134217728
+c # arcs in a block   : 11600
+c Init Time           : 73877 ms
+c # iterations        : 1224472
+c Time                : 47008 ms
+c - find entering arc : 28203 ms (0.599965)
+c - find join node    : 2742 ms (0.058332)
+c - find leaving arc  : 3494 ms (0.0743376)
+c - change flows      : 2 ms (4.93216e-05)
+c - change states     : 93 ms (0.0019992)
+c - update tree       : 2307 ms (0.0490901)
+c - update pots       : 9934 ms (0.211328)
+s 1160743
+
+dataset/netgen_sr_18a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 262144
+c # arcs              : 134217728
+c # arcs in a block   : 11600
+c Init Time           : 75254 ms
+c # iterations        : 2933991
+c Time                : 294454 ms
+c - find entering arc : 74181 ms (0.251927)
+c - find join node    : 11868 ms (0.0403077)
+c - find leaving arc  : 15911 ms (0.0540387)
+c - change flows      : 191 ms (0.000651277)
+c - change states     : 171 ms (0.000583298)
+c - update tree       : 11399 ms (0.0387126)
+c - update pots       : 180230 ms (0.612083)
+s 184048474
+
+dataset/road_flow_07_TX_a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 2073870
+c # arcs              : 5156088
+c # arcs in a block   : 2272
+c Init Time           : 2981 ms
+c # iterations        : 5091192
+c Time                : 385641 ms
+c - find entering arc : 235841 ms (0.611555)
+c - find join node    : 43537 ms (0.112896)
+c - find leaving arc  : 49072 ms (0.127249)
+c - change flows      : 5 ms (1.54393e-05)
+c - change states     : 251 ms (0.000652445)
+c - update tree       : 49349 ms (0.127968)
+c - update pots       : 6619 ms (0.0171655)
+s 22026187320
+
+dataset/road_paths_07_TX_a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 2073870
+c # arcs              : 5156088
+c # arcs in a block   : 2272
+c Init Time           : 3023 ms
+c # iterations        : 4707782
+c Time                : 333082 ms
+c - find entering arc : 220932 ms (0.663298)
+c - find join node    : 33670 ms (0.101088)
+c - find leaving arc  : 36929 ms (0.110873)
+c - change flows      : 1 ms (4.64971e-06)
+c - change states     : 234 ms (0.000702576)
+c - update tree       : 36939 ms (0.110903)
+c - update pots       : 3168 ms (0.00951344)
+s 43872587
+
+dataset/vision_inv_05_bone_subx_n6c100_a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 3899394
+c # arcs              : 23091149
+c # arcs in a block   : 4816
+c Init Time           : 12821 ms
+c # iterations        : 11968134
+c Time                : 1335737 ms
+c - find entering arc : 359723 ms (0.269307)
+c - find join node    : 36153 ms (0.027066)
+c - find leaving arc  : 31643 ms (0.0236901)
+c - change flows      : 1080 ms (0.000809157)
+c - change states     : 498 ms (0.000373213)
+c - update tree       : 32422 ms (0.024273)
+c - update pots       : 871740 ms (0.652628)
+s 301698450
+
+dataset/vision_prop_05_bone_subx_n6c100_a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 3899394
+c # arcs              : 23091149
+c # arcs in a block   : 4816
+c Init Time           : 12986 ms
+c # iterations        : 13661735
+c Time                : 1082501 ms
+c - find entering arc : 518854 ms (0.479311)
+c - find join node    : 51674 ms (0.0477363)
+c - find leaving arc  : 45832 ms (0.0423397)
+c - change flows      : 1326 ms (0.00122562)
+c - change states     : 617 ms (0.000570881)
+c - update tree       : 48872 ms (0.0451481)
+c - update pots       : 411984 ms (0.380586)
+s 8912004513
+
+dataset/vision_rnd_05_bone_subx_n6c100_a.min
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  _OPENMP = '201511'
+  OMP_DYNAMIC = 'FALSE'
+  OMP_NESTED = 'FALSE'
+  OMP_NUM_THREADS = '8'
+  OMP_SCHEDULE = 'DYNAMIC,16'
+  OMP_PROC_BIND = 'TRUE'
+  OMP_PLACES = '{0:22,88:22},{22:22,110:22},{44:22,132:22},{66:22,154:22}'
+  OMP_STACKSIZE = '0'
+  OMP_WAIT_POLICY = 'PASSIVE'
+  OMP_THREAD_LIMIT = '4294967295'
+  OMP_MAX_ACTIVE_LEVELS = '2147483647'
+  OMP_CANCELLATION = 'FALSE'
+  OMP_DEFAULT_DEVICE = '0'
+  OMP_MAX_TASK_PRIORITY = '0'
+  OMP_DISPLAY_AFFINITY = 'FALSE'
+  OMP_AFFINITY_FORMAT = 'level %L thread %i affinity %A'
+OPENMP DISPLAY ENVIRONMENT END
+c pns v1.0.0
+c # nodes             : 3899394
+c # arcs              : 23091149
+c # arcs in a block   : 4816
+c Init Time           : 12772 ms
+c # iterations        : 18920749
+c Time                : 1550946 ms
+c - find entering arc : 444055 ms (0.286313)
+c - find join node    : 118325 ms (0.0762925)
+c - find leaving arc  : 98548 ms (0.063541)
+c - change flows      : 1856 ms (0.00119705)
+c - change states     : 836 ms (0.000539153)
+c - update tree       : 95133 ms (0.0613392)
+c - update pots       : 787739 ms (0.507909)
+s 1010380174
+

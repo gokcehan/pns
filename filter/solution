@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+import sys
+
+if len(sys.argv) == 1:
+    inp = sys.stdin.read()
+elif len(sys.argv) == 2:
+    with open(sys.argv[1]) as f:
+        inp = f.read()
+else:
+    sys.exit('error: only single file is supported')
+
+entries = inp.split('\n\f\n')
+for entry in entries[:-1]:
+    lines = entry.split('\n')
+    problem = lines[0].split()[-1].split('/')[-1]
+    iterations = 'NaN'
+    for line in lines:
+        if line.startswith('s'):
+            iterations = int(line.split()[1])
+            break
+        if line.startswith('Min flow cost:'):
+            iterations = int(line.split()[3])
+            break
+    print(problem, iterations)

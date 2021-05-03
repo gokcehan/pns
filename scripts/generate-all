@@ -1,0 +1,24 @@
+#!/bin/sh
+
+curr="$(dirname "$0")"
+base="$(dirname "$curr")"
+
+dataset="$base/dataset"
+
+mkdir -p "$dataset"
+
+gridgen="$base/generators/gridgen-patched/gridgen"
+
+#   2-way   seed       n width  src  trg   deg  supply     costs     caps
+echo "1 13502460 1048576  1024 1024 1024     8 1024000 1 1 10000 1 1 1000" | "$gridgen" > "$dataset/gridgen_8_20a.min"
+echo "1 13502460  262144   512  512  512   512  512000 1 1 10000 1 1 1000" | "$gridgen" > "$dataset/gridgen_sr_18a.min"
+echo "1 13502460   32768   181  181  181 32768  181000 1 1 10000 1 1 1000" | "$gridgen" > "$dataset/gridgen_deg_15a.min"
+
+netgen="$base/generators/netgen-bcjl-patched/netgen"
+
+#         seed  #       n  src  trg          m   costs  supply               caps
+echo "13502460 20 1048576 1024 1024    8388608 1 10000 1024000 0 0 100 100 1 1000" | "$netgen" > "$dataset/netgen_8_20a.min"
+echo "13502460 18  262144  512  512  134217728 1 10000  512000 0 0 100 100 1 1000" | "$netgen" > "$dataset/netgen_sr_18a.min"
+echo "13502460 20 1048576 1024 1024    8388608 1 10000   10240 0 0 100 100 1 1000" | "$netgen" > "$dataset/netgen_lo_8_20a.min"
+echo "13502460 18  262144  512  512  134217728 1 10000    5120 0 0 100 100 1 1000" | "$netgen" > "$dataset/netgen_lo_sr_18a.min"
+echo "13502460 15   32768  181  181 1073741824 1 10000  181000 0 0 100 100 1 1000" | "$netgen" > "$dataset/netgen_deg_15a.min"

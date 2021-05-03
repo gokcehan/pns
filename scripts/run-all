@@ -1,0 +1,36 @@
+#!/bin/sh
+
+curr="$(dirname "$0")"
+base="$(dirname "$curr")"
+
+outputs="$base/outputs-new"
+
+mkdir -p "$outputs"
+
+# lemon="/path/to/lemon/solver"
+# for f in "$@"; do echo "$f"; "$lemon" "$f" 2>&1; printf "\f\n"; done | tee -a "$outputs/lemon.txt"
+
+pns_seq="$base/pns-seq"
+pns_seq_avx2="$base/pns-seq-avx2"
+pns_seq_avx512="$base/pns-seq-avx512"
+
+pns_omp="$base/pns-omp"
+pns_omp_avx2="$base/pns-omp-avx2"
+pns_omp_avx512="$base/pns-omp-avx512"
+
+export OMP_DISPLAY_ENV=TRUE
+export OMP_SCHEDULE=DYNAMIC,16
+export OMP_PROC_BIND=TRUE
+export OMP_PLACES=sockets
+
+for k in 1 4 16; do
+    for f in "$@"; do echo "$f"; "$pns_seq"        "$f" -k$k 2>&1; printf "\f\n"; done | tee -a "$outputs/pns-seq-k$k.txt"
+    for f in "$@"; do echo "$f"; "$pns_seq_avx2"   "$f" -k$k 2>&1; printf "\f\n"; done | tee -a "$outputs/pns-seq-avx2-k$k.txt"
+    for f in "$@"; do echo "$f"; "$pns_seq_avx512" "$f" -k$k 2>&1; printf "\f\n"; done | tee -a "$outputs/pns-seq-avx512-k$k.txt"
+    for n in 1 2 4 8 16; do
+        export OMP_NUM_THREADS=$n
+        for f in "$@"; do echo "$f"; "$pns_omp"        "$f" -k$k 2>&1; printf "\f\n"; done | tee -a "$outputs/pns-omp-p$n-k$k.txt"
+        for f in "$@"; do echo "$f"; "$pns_omp_avx2"   "$f" -k$k 2>&1; printf "\f\n"; done | tee -a "$outputs/pns-omp-avx2-p$n-k$k.txt"
+        for f in "$@"; do echo "$f"; "$pns_omp_avx512" "$f" -k$k 2>&1; printf "\f\n"; done | tee -a "$outputs/pns-omp-avx512-p$n-k$k.txt"
+    done
+done

@@ -1,0 +1,272 @@
+dataset/gridgen_8_20a.min
+c pns v1.0.0
+c # nodes             : 1048577
+c # arcs              : 8388616
+c # arcs in a block   : 2896
+c Init Time           : 4653 ms
+c # iterations        : 3076626
+c Time                : 134936 ms
+c - find entering arc : 52438 ms (0.388618)
+c - find join node    : 7920 ms (0.0586995)
+c - find leaving arc  : 8764 ms (0.0649527)
+c - change flows      : 69 ms (0.000512017)
+c - change states     : 176 ms (0.00130439)
+c - update tree       : 6082 ms (0.0450742)
+c - update pots       : 59030 ms (0.437471)
+s 15057717825
+
+dataset/gridgen_deg_15a.min
+c pns v1.0.0
+c # nodes             : 32762
+c # arcs              : 1073545216
+c # arcs in a block   : 32768
+c Init Time           : 594155 ms
+c # iterations        : 1344498
+c Time                : 146432 ms
+c - find entering arc : 128678 ms (0.878755)
+c - find join node    : 2336 ms (0.0159548)
+c - find leaving arc  : 9760 ms (0.0666569)
+c - change flows      : 126 ms (0.000866505)
+c - change states     : 669 ms (0.00457301)
+c - update tree       : 1454 ms (0.00993597)
+c - update pots       : 3202 ms (0.0218708)
+s 1213580
+
+dataset/gridgen_sr_18a.min
+c pns v1.0.0
+c # nodes             : 262145
+c # arcs              : 134218240
+c # arcs in a block   : 11600
+c Init Time           : 76409 ms
+c # iterations        : 2155902
+c Time                : 249704 ms
+c - find entering arc : 160648 ms (0.643355)
+c - find join node    : 11350 ms (0.045456)
+c - find leaving arc  : 16442 ms (0.0658465)
+c - change flows      : 98 ms (0.000396022)
+c - change states     : 588 ms (0.00235559)
+c - update tree       : 6853 ms (0.0274444)
+c - update pots       : 53370 ms (0.213736)
+s 109933029
+
+dataset/grid_long_20a.min
+c pns v1.0.0
+c # nodes             : 1048578
+c # arcs              : 2031632
+c # arcs in a block   : 1440
+c Init Time           : 1173 ms
+c # iterations        : 1094322
+c Time                : 535518 ms
+c - find entering arc : 174794 ms (0.326403)
+c - find join node    : 69361 ms (0.129521)
+c - find leaving arc  : 74586 ms (0.139278)
+c - change flows      : 5 ms (9.49611e-06)
+c - change states     : 177 ms (0.000330621)
+c - update tree       : 215614 ms (0.402627)
+c - update pots       : 763 ms (0.00142661)
+s 5226915444
+
+dataset/grid_square_20a.min
+c pns v1.0.0
+c # nodes             : 1048578
+c # arcs              : 2097152
+c # arcs in a block   : 1456
+c Init Time           : 1212 ms
+c # iterations        : 6233659
+c Time                : 1323888 ms
+c - find entering arc : 41567 ms (0.0313984)
+c - find join node    : 38612 ms (0.0291659)
+c - find leaving arc  : 41807 ms (0.0315794)
+c - change flows      : 4125 ms (0.00311654)
+c - change states     : 307 ms (0.000232639)
+c - update tree       : 73075 ms (0.0551974)
+c - update pots       : 1123426 ms (0.848581)
+s 726961703929
+
+dataset/grid_wide_20a.min
+c pns v1.0.0
+c # nodes             : 1048578
+c # arcs              : 2162672
+c # arcs in a block   : 1472
+c Init Time           : 1310 ms
+c # iterations        : 2079321
+c Time                : 9426 ms
+c - find entering arc : 6092 ms (0.646338)
+c - find join node    : 760 ms (0.0807006)
+c - find leaving arc  : 990 ms (0.105057)
+c - change flows      : 77 ms (0.0082698)
+c - change states     : 57 ms (0.00613447)
+c - update tree       : 879 ms (0.0932981)
+c - update pots       : 249 ms (0.0264791)
+s 1677975681570
+
+dataset/netgen_8_20a.min
+c pns v1.0.0
+c # nodes             : 1048576
+c # arcs              : 8388608
+c # arcs in a block   : 2896
+c Init Time           : 4722 ms
+c # iterations        : 3456607
+c Time                : 203424 ms
+c - find entering arc : 61325 ms (0.301465)
+c - find join node    : 11655 ms (0.0572958)
+c - find leaving arc  : 12135 ms (0.0596576)
+c - change flows      : 113 ms (0.000559994)
+c - change states     : 135 ms (0.000664818)
+c - update tree       : 8492 ms (0.0417453)
+c - update pots       : 109055 ms (0.536097)
+s 18337316134
+
+dataset/netgen_deg_15a.min
+c pns v1.0.0
+c # nodes             : 32768
+c # arcs              : 1061879982
+c # arcs in a block   : 32592
+c Init Time           : 600239 ms
+c # iterations        : 918179
+c Time                : 102359 ms
+c - find entering arc : 92796 ms (0.90657)
+c - find join node    : 1389 ms (0.0135727)
+c - find leaving arc  : 3453 ms (0.0337422)
+c - change flows      : 44 ms (0.000429944)
+c - change states     : 64 ms (0.000627456)
+c - update tree       : 845 ms (0.00825743)
+c - update pots       : 3625 ms (0.0354201)
+s 1010364
+
+dataset/netgen_lo_8_20a.min
+c pns v1.0.0
+c # nodes             : 1048576
+c # arcs              : 8388608
+c # arcs in a block   : 2896
+c Init Time           : 4750 ms
+c # iterations        : 2118479
+c Time                : 59538 ms
+c - find entering arc : 37391 ms (0.628013)
+c - find join node    : 4954 ms (0.0832232)
+c - find leaving arc  : 4987 ms (0.0837628)
+c - change flows      : 1 ms (3.21691e-05)
+c - change states     : 84 ms (0.00141448)
+c - update tree       : 3288 ms (0.0552384)
+c - update pots       : 8518 ms (0.143073)
+s 128833608
+
+dataset/netgen_lo_sr_18a.min
+c pns v1.0.0
+c # nodes             : 262144
+c # arcs              : 134217728
+c # arcs in a block   : 11600
+c Init Time           : 77886 ms
+c # iterations        : 1234943
+c Time                : 101174 ms
+c - find entering arc : 84795 ms (0.838116)
+c - find join node    : 4128 ms (0.0408059)
+c - find leaving arc  : 3797 ms (0.0375365)
+c - change flows      : 2 ms (2.36703e-05)
+c - change states     : 45 ms (0.000445151)
+c - update tree       : 2337 ms (0.0231014)
+c - update pots       : 5875 ms (0.0580778)
+s 1160743
+
+dataset/netgen_sr_18a.min
+c pns v1.0.0
+c # nodes             : 262144
+c # arcs              : 134217728
+c # arcs in a block   : 11600
+c Init Time           : 75960 ms
+c # iterations        : 2948166
+c Time                : 357615 ms
+c - find entering arc : 196930 ms (0.550677)
+c - find join node    : 14711 ms (0.0411365)
+c - find leaving arc  : 17342 ms (0.0484936)
+c - change flows      : 181 ms (0.000506905)
+c - change states     : 121 ms (0.000338608)
+c - update tree       : 10839 ms (0.0303094)
+c - update pots       : 117022 ms (0.327231)
+s 184048474
+
+dataset/road_flow_07_TX_a.min
+c pns v1.0.0
+c # nodes             : 2073870
+c # arcs              : 5156088
+c # arcs in a block   : 2272
+c Init Time           : 2883 ms
+c # iterations        : 5082759
+c Time                : 206462 ms
+c - find entering arc : 77082 ms (0.37335)
+c - find join node    : 37322 ms (0.180773)
+c - find leaving arc  : 42676 ms (0.206703)
+c - change flows      : 6 ms (3.02535e-05)
+c - change states     : 272 ms (0.00132063)
+c - update tree       : 42709 ms (0.206863)
+c - update pots       : 5641 ms (0.027326)
+s 22026187320
+
+dataset/road_paths_07_TX_a.min
+c pns v1.0.0
+c # nodes             : 2073870
+c # arcs              : 5156088
+c # arcs in a block   : 2272
+c Init Time           : 2984 ms
+c # iterations        : 4634739
+c Time                : 164248 ms
+c - find entering arc : 68926 ms (0.41965)
+c - find join node    : 28893 ms (0.175911)
+c - find leaving arc  : 31615 ms (0.192485)
+c - change flows      : 1 ms (9.31155e-06)
+c - change states     : 208 ms (0.00127049)
+c - update tree       : 31431 ms (0.191366)
+c - update pots       : 2488 ms (0.015149)
+s 43872587
+
+dataset/vision_inv_05_bone_subx_n6c100_a.min
+c pns v1.0.0
+c # nodes             : 3899394
+c # arcs              : 23091149
+c # arcs in a block   : 4816
+c Init Time           : 13217 ms
+c # iterations        : 12231192
+c Time                : 1157507 ms
+c - find entering arc : 233841 ms (0.202022)
+c - find join node    : 37185 ms (0.0321259)
+c - find leaving arc  : 34112 ms (0.0294703)
+c - change flows      : 962 ms (0.000831586)
+c - change states     : 624 ms (0.000539559)
+c - update tree       : 31496 ms (0.0272102)
+c - update pots       : 817445 ms (0.706212)
+s 301698450
+
+dataset/vision_prop_05_bone_subx_n6c100_a.min
+c pns v1.0.0
+c # nodes             : 3899394
+c # arcs              : 23091149
+c # arcs in a block   : 4816
+c Init Time           : 13202 ms
+c # iterations        : 13690420
+c Time                : 864656 ms
+c - find entering arc : 316924 ms (0.366532)
+c - find join node    : 52578 ms (0.0608081)
+c - find leaving arc  : 45832 ms (0.053007)
+c - change flows      : 1193 ms (0.0013804)
+c - change states     : 634 ms (0.000734074)
+c - update tree       : 45908 ms (0.0530942)
+c - update pots       : 399506 ms (0.462041)
+s 8912004513
+
+dataset/vision_rnd_05_bone_subx_n6c100_a.min
+c pns v1.0.0
+c # nodes             : 3899394
+c # arcs              : 23091149
+c # arcs in a block   : 4816
+c Init Time           : 12823 ms
+c # iterations        : 18977189
+c Time                : 1245907 ms
+c - find entering arc : 285839 ms (0.229423)
+c - find join node    : 109544 ms (0.0879238)
+c - find leaving arc  : 92805 ms (0.0744886)
+c - change flows      : 1598 ms (0.00128315)
+c - change states     : 786 ms (0.000631311)
+c - update tree       : 84661 ms (0.0679514)
+c - update pots       : 667813 ms (0.536006)
+s 1010380174
+

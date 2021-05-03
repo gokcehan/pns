@@ -1,0 +1,21 @@
+#!/bin/sh
+
+curr="$(dirname "$0")"
+base="$(dirname "$curr")"
+
+dataset="$base/dataset"
+
+mkdir -p "$dataset"
+
+url="http://lime.cs.elte.hu/~kpeter/data/mcf"
+
+curl "$url/gridgraph/grid_long_20a.min.gz"                  | gunzip > "$dataset/grid_long_20a.min"
+curl "$url/gridgraph/grid_square_20a.min.gz"                | gunzip > "$dataset/grid_square_20a.min"
+curl "$url/gridgraph/grid_wide_20a.min.gz"                  | gunzip > "$dataset/grid_wide_20a.min"
+
+curl "$url/road/road_flow_07_TX_a.min.gz"                   | gunzip > "$dataset/road_flow_07_TX_a.min"
+curl "$url/road/road_paths_07_TX_a.min.gz"                  | gunzip > "$dataset/road_paths_07_TX_a.min"
+
+curl "$url/vision/vision_inv_05_bone_subx_n6c100_a.min.gz"  | gunzip > "$dataset/vision_inv_05_bone_subx_n6c100_a.min"
+curl "$url/vision/vision_prop_05_bone_subx_n6c100_a.min.gz" | gunzip > "$dataset/vision_prop_05_bone_subx_n6c100_a.min"
+curl "$url/vision/vision_rnd_05_bone_subx_n6c100_a.min.gz"  | gunzip > "$dataset/vision_rnd_05_bone_subx_n6c100_a.min"
