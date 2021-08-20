@@ -1,0 +1,192 @@
+dataset/gridgen_8_20a.min
+Problem type: min
+Num of nodes: 1048577
+Num of arcs:  8388616
+
+Read the file: u: 2.96s, s: 0.27s, cu: 0s, cs: 0s, real: 3.24302s
+Setup NetworkSimplex class: u: 1.63s, s: 0.28s, cu: 0s, cs: 0s, real: 1.90679s
+Run NetworkSimplex: u: 28.75s, s: 0.19s, cu: 0s, cs: 0s, real: 28.9463s
+
+Feasible flow: found
+Min flow cost: 15057717825
+
+dataset/gridgen_deg_15a.min
+Problem type: min
+Num of nodes: 32762
+Num of arcs:  1073545216
+
+Read the file: u: 319.03s, s: 30.96s, cu: 0s, cs: 0s, real: 350.061s
+Setup NetworkSimplex class: u: 445.15s, s: 34.51s, cu: 0s, cs: 0s, real: 479.738s
+Run NetworkSimplex: u: 1735.83s, s: 12.54s, cu: 0s, cs: 0s, real: 1748.71s
+
+Feasible flow: found
+Min flow cost: 1213580
+
+dataset/gridgen_sr_18a.min
+Problem type: min
+Num of nodes: 262145
+Num of arcs:  134218240
+
+Read the file: u: 45.63s, s: 5.55s, cu: 0s, cs: 0s, real: 51.1939s
+Setup NetworkSimplex class: u: 43.53s, s: 4.14s, cu: 0s, cs: 0s, real: 47.6893s
+Run NetworkSimplex: u: 231.97s, s: 1.5s, cu: 0s, cs: 0s, real: 233.508s
+
+Feasible flow: found
+Min flow cost: 109933029
+
+dataset/grid_long_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2031632
+
+Read the file: u: 0.63s, s: 0.03s, cu: 0s, cs: 0s, real: 0.67342s
+Setup NetworkSimplex class: u: 0.07s, s: 0.1s, cu: 0s, cs: 0s, real: 0.168853s
+Run NetworkSimplex: u: 11.56s, s: 0.04s, cu: 0s, cs: 0s, real: 11.6035s
+
+Feasible flow: found
+Min flow cost: 5226915444
+
+dataset/grid_square_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2097152
+
+Read the file: u: 0.63s, s: 0.05s, cu: 0s, cs: 0s, real: 0.691812s
+Setup NetworkSimplex class: u: 0.07s, s: 0.1s, cu: 0s, cs: 0s, real: 0.167744s
+Run NetworkSimplex: u: 107.61s, s: 0.04s, cu: 0s, cs: 0s, real: 107.679s
+
+Feasible flow: found
+Min flow cost: 726961703929
+
+dataset/grid_wide_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2162672
+
+Read the file: u: 0.65s, s: 0.08s, cu: 0s, cs: 0s, real: 0.73935s
+Setup NetworkSimplex class: u: 0.09s, s: 0.1s, cu: 0s, cs: 0s, real: 0.192886s
+Run NetworkSimplex: u: 262.22s, s: 0.06s, cu: 0s, cs: 0s, real: 262.327s
+
+Feasible flow: found
+Min flow cost: 1677975681570
+
+dataset/netgen_8_20a.min
+Problem type: min
+Num of nodes: 1048576
+Num of arcs:  8388608
+
+Read the file: u: 2.99s, s: 0.19s, cu: 0s, cs: 0s, real: 3.18865s
+Setup NetworkSimplex class: u: 1.55s, s: 0.29s, cu: 0s, cs: 0s, real: 1.84379s
+Run NetworkSimplex: u: 30.82s, s: 0.07s, cu: 0s, cs: 0s, real: 30.8897s
+
+Feasible flow: found
+Min flow cost: 18337316134
+
+dataset/netgen_deg_15a.min
+Problem type: min
+Num of nodes: 32768
+Num of arcs:  1061879982
+
+Read the file: u: 311.69s, s: 31.15s, cu: 0s, cs: 0s, real: 342.905s
+Setup NetworkSimplex class: u: 221.66s, s: 32.95s, cu: 0s, cs: 0s, real: 254.664s
+Run NetworkSimplex: u: 3964.69s, s: 163.24s, cu: 0s, cs: 0s, real: 4128.82s
+
+Feasible flow: found
+Min flow cost: 1010364
+
+dataset/netgen_lo_8_20a.min
+Problem type: min
+Num of nodes: 1048576
+Num of arcs:  8388608
+
+Read the file: u: 2.98s, s: 0.21s, cu: 0s, cs: 0s, real: 3.19776s
+Setup NetworkSimplex class: u: 1.55s, s: 0.3s, cu: 0s, cs: 0s, real: 1.85064s
+Run NetworkSimplex: u: 21.44s, s: 0.15s, cu: 0s, cs: 0s, real: 21.5898s
+
+Feasible flow: found
+Min flow cost: 128833608
+
+dataset/netgen_lo_sr_18a.min
+Problem type: min
+Num of nodes: 262144
+Num of arcs:  134217728
+
+Read the file: u: 43.78s, s: 3.99s, cu: 0s, cs: 0s, real: 47.7929s
+Setup NetworkSimplex class: u: 23.22s, s: 4.32s, cu: 0s, cs: 0s, real: 27.5395s
+Run NetworkSimplex: u: 211.72s, s: 1.48s, cu: 0s, cs: 0s, real: 213.235s
+
+Feasible flow: found
+Min flow cost: 1160743
+
+dataset/netgen_sr_18a.min
+Problem type: min
+Num of nodes: 262144
+Num of arcs:  134217728
+
+Read the file: u: 43.85s, s: 3.79s, cu: 0s, cs: 0s, real: 47.6553s
+Setup NetworkSimplex class: u: 23.17s, s: 4.21s, cu: 0s, cs: 0s, real: 27.3894s
+Run NetworkSimplex: u: 233.88s, s: 1.55s, cu: 0s, cs: 0s, real: 235.47s
+
+Feasible flow: found
+Min flow cost: 184048474
+
+dataset/road_flow_07_TX_a.min
+Problem type: min
+Num of nodes: 2073870
+Num of arcs:  5156088
+
+Read the file: u: 1.59s, s: 0.17s, cu: 0s, cs: 0s, real: 1.7685s
+Setup NetworkSimplex class: u: 0.18s, s: 0.23s, cu: 0s, cs: 0s, real: 0.40608s
+Run NetworkSimplex: u: 114.64s, s: 0.33s, cu: 0s, cs: 0s, real: 114.997s
+
+Feasible flow: found
+Min flow cost: 22026187320
+
+dataset/road_paths_07_TX_a.min
+Problem type: min
+Num of nodes: 2073870
+Num of arcs:  5156088
+
+Read the file: u: 1.57s, s: 0.14s, cu: 0s, cs: 0s, real: 1.72509s
+Setup NetworkSimplex class: u: 0.17s, s: 0.24s, cu: 0s, cs: 0s, real: 0.406155s
+Run NetworkSimplex: u: 74.3s, s: 0.28s, cu: 0s, cs: 0s, real: 74.599s
+
+Feasible flow: found
+Min flow cost: 43872587
+
+dataset/vision_inv_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Read the file: u: 7.1s, s: 0.69s, cu: 0s, cs: 0s, real: 7.80594s
+Setup NetworkSimplex class: u: 0.72s, s: 0.84s, cu: 0s, cs: 0s, real: 1.55952s
+Run NetworkSimplex: u: 576.29s, s: 2.31s, cu: 0s, cs: 0s, real: 578.742s
+
+Feasible flow: found
+Min flow cost: 301698450
+
+dataset/vision_prop_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Read the file: u: 7.14s, s: 0.74s, cu: 0s, cs: 0s, real: 7.8886s
+Setup NetworkSimplex class: u: 0.7s, s: 0.86s, cu: 0s, cs: 0s, real: 1.55768s
+Run NetworkSimplex: u: 620.95s, s: 2.44s, cu: 0s, cs: 0s, real: 623.548s
+
+Feasible flow: found
+Min flow cost: 8912004513
+
+dataset/vision_rnd_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Read the file: u: 6.94s, s: 0.79s, cu: 0s, cs: 0s, real: 7.74645s
+Setup NetworkSimplex class: u: 0.76s, s: 0.8s, cu: 0s, cs: 0s, real: 1.56033s
+Run NetworkSimplex: u: 365.35s, s: 1.55s, cu: 0s, cs: 0s, real: 366.982s
+
+Feasible flow: found
+Min flow cost: 1010380174
+

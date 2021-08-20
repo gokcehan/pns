@@ -1,0 +1,147 @@
+dataset/gridgen_8_20a.min
+Problem type: min
+Num of nodes: 1048577
+Num of arcs:  8388616
+
+Read the file: u: 3s, s: 0.34s, cu: 0s, cs: 0s, real: 3.34826s
+Setup NetworkSimplex class: u: 1.63s, s: 0.23s, cu: 0s, cs: 0s, real: 1.86125s
+Run NetworkSimplex: u: 3265.08s, s: 2.02s, cu: 0s, cs: 0s, real: 3267.66s
+
+Feasible flow: found
+Min flow cost: 15057717825
+
+dataset/gridgen_deg_15a.min
+Terminated
+
+dataset/gridgen_sr_18a.min
+Terminated
+
+dataset/grid_long_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2031632
+
+Read the file: u: 0.62s, s: 0.05s, cu: 0s, cs: 0s, real: 0.682342s
+Setup NetworkSimplex class: u: 0.07s, s: 0.08s, cu: 0s, cs: 0s, real: 0.148856s
+Run NetworkSimplex: u: 1.88s, s: 0.01s, cu: 0s, cs: 0s, real: 1.88943s
+
+Feasible flow: found
+Min flow cost: 5226915444
+
+dataset/grid_square_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2097152
+
+Read the file: u: 0.64s, s: 0.05s, cu: 0s, cs: 0s, real: 0.699819s
+Setup NetworkSimplex class: u: 0.07s, s: 0.08s, cu: 0s, cs: 0s, real: 0.149882s
+Run NetworkSimplex: u: 581.47s, s: 0.01s, cu: 0s, cs: 0s, real: 581.615s
+
+Feasible flow: found
+Min flow cost: 726961703929
+
+dataset/grid_wide_20a.min
+Problem type: min
+Num of nodes: 1048578
+Num of arcs:  2162672
+
+Read the file: u: 0.63s, s: 0.11s, cu: 0s, cs: 0s, real: 0.750922s
+Setup NetworkSimplex class: u: 0.1s, s: 0.07s, cu: 0s, cs: 0s, real: 0.168128s
+Run NetworkSimplex: u: 11379.4s, s: 0.01s, cu: 0s, cs: 0s, real: 11382s
+
+Feasible flow: found
+Min flow cost: 1677975681570
+
+dataset/netgen_8_20a.min
+Terminated
+
+dataset/netgen_deg_15a.min
+Terminated
+
+dataset/netgen_lo_8_20a.min
+Problem type: min
+Num of nodes: 1048576
+Num of arcs:  8388608
+
+Read the file: u: 2.92s, s: 0.29s, cu: 0s, cs: 0s, real: 3.22057s
+Setup NetworkSimplex class: u: 1.56s, s: 0.27s, cu: 0s, cs: 0s, real: 1.83343s
+Run NetworkSimplex: u: 142.59s, s: 0.94s, cu: 0s, cs: 0s, real: 143.548s
+
+Feasible flow: found
+Min flow cost: 128833608
+
+dataset/netgen_lo_sr_18a.min
+Problem type: min
+Num of nodes: 262144
+Num of arcs:  134217728
+
+Read the file: u: 43.58s, s: 4.67s, cu: 0s, cs: 0s, real: 48.2762s
+Setup NetworkSimplex class: u: 23.55s, s: 3.63s, cu: 0s, cs: 0s, real: 27.1735s
+Run NetworkSimplex: u: 249.27s, s: 2.43s, cu: 0s, cs: 0s, real: 251.75s
+
+Feasible flow: found
+Min flow cost: 1160743
+
+dataset/netgen_sr_18a.min
+Terminated
+
+dataset/road_flow_07_TX_a.min
+Problem type: min
+Num of nodes: 2073870
+Num of arcs:  5156088
+
+Read the file: u: 1.56s, s: 0.22s, cu: 0s, cs: 0s, real: 1.7853s
+Setup NetworkSimplex class: u: 0.19s, s: 0.18s, cu: 0s, cs: 0s, real: 0.364554s
+Run NetworkSimplex: u: 28.68s, s: 0.1s, cu: 0s, cs: 0s, real: 28.8029s
+
+Feasible flow: found
+Min flow cost: 22026187320
+
+dataset/road_paths_07_TX_a.min
+Problem type: min
+Num of nodes: 2073870
+Num of arcs:  5156088
+
+Read the file: u: 1.58s, s: 0.15s, cu: 0s, cs: 0s, real: 1.74181s
+Setup NetworkSimplex class: u: 0.18s, s: 0.19s, cu: 0s, cs: 0s, real: 0.364526s
+Run NetworkSimplex: u: 6.41s, s: 0.04s, cu: 0s, cs: 0s, real: 6.4557s
+
+Feasible flow: found
+Min flow cost: 43872587
+
+dataset/vision_inv_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Read the file: u: 7.08s, s: 0.81s, cu: 0s, cs: 0s, real: 7.89491s
+Setup NetworkSimplex class: u: 0.67s, s: 0.71s, cu: 0s, cs: 0s, real: 1.38622s
+Run NetworkSimplex: u: 3368.14s, s: 25.58s, cu: 0s, cs: 0s, real: 3394.63s
+
+Feasible flow: found
+Min flow cost: 301698450
+
+dataset/vision_prop_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Read the file: u: 7.09s, s: 0.87s, cu: 0s, cs: 0s, real: 7.97718s
+Setup NetworkSimplex class: u: 0.71s, s: 0.68s, cu: 0s, cs: 0s, real: 1.38293s
+Run NetworkSimplex: u: 10382.7s, s: 78.78s, cu: 0s, cs: 0s, real: 10464.2s
+
+Feasible flow: found
+Min flow cost: 8912004513
+
+dataset/vision_rnd_05_bone_subx_n6c100_a.min
+Problem type: min
+Num of nodes: 3899394
+Num of arcs:  23091149
+
+Read the file: u: 7.02s, s: 0.81s, cu: 0s, cs: 0s, real: 7.8362s
+Setup NetworkSimplex class: u: 0.66s, s: 0.72s, cu: 0s, cs: 0s, real: 1.38327s
+Run NetworkSimplex: u: 8740.76s, s: 66.34s, cu: 0s, cs: 0s, real: 8809.25s
+
+Feasible flow: found
+Min flow cost: 1010380174
+
