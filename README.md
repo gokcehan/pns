@@ -208,6 +208,10 @@ filters for distribution.
 List of files and brief descriptions of subdirectories are as follows:
 
     .
+    |-- CITATION.cff
+    |-- LICENSE
+    |-- Makefile
+    |-- README.md
     |-- filter                         -- scripts for convenient output display
     |   |-- all
     |   |-- distribution-percentage
@@ -217,12 +221,14 @@ List of files and brief descriptions of subdirectories are as follows:
     |   `-- time
     |-- generators                     -- patched versions of graph generators
     |   |-- gridgen-patched
+    |   |   |-- Makefile
     |   |   |-- gridgen.c
     |   |   |-- gridgen.c.BAK
     |   |   |-- gridgen.c.orig
-    |   |   |-- Makefile
     |   |   `-- readme
     |   `-- netgen-bcjl-patched
+    |       |-- README
+    |       |-- README.BAK
     |       |-- index.c
     |       |-- makefile
     |       |-- makefile.orig
@@ -231,23 +237,27 @@ List of files and brief descriptions of subdirectories are as follows:
     |       |-- netgen.h
     |       |-- netgen.h.orig
     |       |-- random.c
-    |       |-- random.c.orig
-    |       |-- README
-    |       `-- README.BAK
-    |-- LICENSE
-    |-- Makefile
+    |       `-- random.c.orig
     |-- outputs                        -- outputs for the results in the paper
-    |   |-- lemon.txt
-    |   |-- pns-omp-avx2-p16-k16.txt
-    |   |-- pns-omp-avx2-p16-k1.txt
-    |   |-- pns-omp-avx2-p16-k4.txt
-    |   |-- pns-omp-avx2-p1-k16.txt
+    |   |-- lemon-cas.txt
+    |   |-- lemon-cos.txt
+    |   |-- lemon-ns.txt
     |   |-- pns-omp-avx2-p1-k1.txt
+    |   |-- pns-omp-avx2-p1-k16.txt
     |   |-- pns-omp-avx2-p1-k4.txt
-    |   |-- pns-omp-avx2-p2-k16.txt
+    |   |-- pns-omp-avx2-p16-k1.txt
+    |   |-- pns-omp-avx2-p16-k16.txt
+    |   |-- pns-omp-avx2-p16-k4.txt
+    |   |-- ...
+    |-- outputs-extended               -- outputs for the extended results
+    |   |-- pns-omp-avx2-p32-k1.txt
+    |   |-- pns-omp-avx2-p32-k16.txt
+    |   |-- pns-omp-avx2-p32-k4.txt
+    |   |-- pns-omp-avx2-p64-k1.txt
+    |   |-- pns-omp-avx2-p64-k16.txt
+    |   |-- pns-omp-avx2-p64-k4.txt
     |   |-- ...
     |-- pns.cpp
-    |-- README.md
     |-- samples                        -- sample DIMACS input/output files
     |   |-- dimacs.min
     |   |-- dimacs.sol
@@ -258,4 +268,4 @@ List of files and brief descriptions of subdirectories are as follows:
         |-- generate-all
         `-- run-all
 
-    7 directories, 90 files
+    8 directories, 111 files
