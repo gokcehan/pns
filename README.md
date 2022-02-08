@@ -1,6 +1,10 @@
 # PNS
 
-Parallel Network Simplex Algorithm for the Minimum Cost Flow Problem.
+[GitHub](https://github.com/gokcehan/pns)
+| [Zenodo](https://zenodo.org/record/5502051)
+| [Article](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6659)
+
+Parallel network simplex algorithm for the minimum cost flow problem.
 
 This code is structured as a standalone tool to use as a solver for DIMACS
 minimum cost flow problem files. Solution is then given as a DIMACS minimum
