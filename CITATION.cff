@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kara"
+  given-names: "Gökçehan"
+  orcid: "https://orcid.org/0000-0002-7104-4743"
+- family-names: "Özturan"
+  given-names: "Can"
+  orcid: "https://orcid.org/0000-0003-0465-2519"
+title: "pns"
+version: 1.0.0
+doi: 10.5281/zenodo.5502052
+date-released: 2021-09-12
+url: "https://github.com/gokcehan/pns"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Kara"
+    given-names: "Gökçehan"
+    orcid: "https://orcid.org/0000-0002-7104-4743"
+  - family-names: "Özturan"
+    given-names: "Can"
+    orcid: "https://orcid.org/0000-0003-0465-2519"
+  doi: "10.1002/cpe.6659"
+  journal: "Concurrency and Computation: Practice and Experience"
+  pages: e6659
+  title: "Parallel network simplex algorithm for the minimum cost flow problem"
+  issue: 4
+  volume: 34
+  year: 2022
